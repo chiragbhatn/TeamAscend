@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(homepage.png);
+    background-size: cover;
+    background-position: 69%;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.links{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-inline-start: 392px;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 122px;
+    margin-top: 42px;
+    font-size: 14px;
+}
+
+ul li a{
+     text-decoration: none;
+     color: #445BC1;
+     font-family:"Poppins", sans-serif;
+     font-weight: bold  ;
+     font-size: medium;
+}
+
+ul li a:hover{
+    color: #A43067 ;
+}
+
+.content{
+    color: #444;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 126px;
+    padding-bottom: 25px;
+    font-family:"Poppins", sans-serif;
+    letter-spacing: 0.2px;
+    line-height: 29px;
+    font-size:large;
+    font-weight:bold;
+}
+
+.content .login{
+    padding-left: 126px;
+    padding-top: 417px;
+    font-family: "Poppins", sans-serif;
+    line-height: 29px;
+    font-size:large;
+    font-weight:bold;
+}
+
+.content h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    padding-left: 124px;
+    margin-top: 11%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    font-family: "Poppins", sans-serif;
+    width: 160px;
+    height: 40px;
+    background: #445BC1;
+    border: none;
+    margin-top: 37px;
+    margin-left: 124px;
+    font-size: 18px;
+    border-radius: 49px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-weight: 600;
+    
+}
+
+.content .an{
+    width: 160px;
+    height: 40px;
+    background: #445BC1;
+    border: none;
+    margin-top: 14px;
+    margin-left: 264px;
+    font-size: 18px;
+    border-radius: 49px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-weight: 600;
+    
+}
+
+.content .an a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease;
+}
+
+
+.content .cn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .3s ease;
+}
+
+.an:hover{
+    background-color: #A43067;
+}
+
+.cn:hover{
+    background-color: #A43067;
+}
+
+.signup{
+    background: url(signup.png);
+    background-size: cover;
+    background-position: 69%;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.ab{
+    background: url(edit12.png);
+    background-size:cover;
+    background-position: 69%;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.adminsign{
+background: url(wave.png);
+    background-size:190ex;
+    background-position: 10% 120%;
+    background-repeat: no-repeat;
+    height: 100vh;   
+}
+
+.adminlogin{
+    background: url(21.png);
+        background-size:190ex;
+        background-position: 10% 110%;
+        background-repeat: no-repeat;
+        height: 100vh;   
+    }
